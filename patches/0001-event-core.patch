@@ -1,0 +1,7 @@
+diff --git a/build/fbcode_builder/CMake/FindLibEvent.cmake b/build/fbcode_builder/CMake/FindLibEvent.cmake
+index dd11ebd84..82b452476 100644
+--- a/build/fbcode_builder/CMake/FindLibEvent.cmake
++++ b/build/fbcode_builder/CMake/FindLibEvent.cmake
+@@ -53 +53 @@ else()
+-  find_library(LIBEVENT_LIB NAMES event PATHS ${LibEvent_LIB_PATHS})
++  find_library(LIBEVENT_LIB NAMES event event_core PATHS ${LibEvent_LIB_PATHS})

@@ -1,0 +1,8 @@
+sources:
+  "2023.09.04.00":
+    url: "https://github.com/facebook/folly/releases/download/v2023.09.04.00/folly-v2023.09.04.00.tar.gz"
+    sha256: "343593cf2f0c47c725936ae65e4f16a64bd895f9be3fae8eaa56e9b16ebce2b6"
+patches:
+  "2023.09.04.00":
+    - patch_file: "patches/0001-event-core.patch"
+    - patch_file: "patches/0002-link-lzma.patch"

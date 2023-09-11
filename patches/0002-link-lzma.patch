@@ -1,0 +1,6 @@
+diff --git a/CMake/folly-deps.cmake b/CMake/folly-deps.cmake
+index 989259a87..4b76af9ce 100644
+--- a/CMake/folly-deps.cmake
++++ b/CMake/folly-deps.cmake
+@@ -158,0 +159 @@ list(APPEND FOLLY_INCLUDE_DIRECTORIES ${LIBUNWIND_INCLUDE_DIRS})
++list(APPEND FOLLY_LINK_LIBRARIES ${LIBLZMA_LIBRARIES})
